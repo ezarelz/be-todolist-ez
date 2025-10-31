@@ -275,14 +275,6 @@ Your live API:
 https://<yourproject>.up.railway.app/
 ```
 
----
-
-## 🧾 License
-
-MIT © 2025 [Ezar Eleazar](https://github.com/<your-username>)
-
----
-
 ## ❤️ Acknowledgements
 
 Built with:
@@ -291,5 +283,13 @@ Built with:
 - [Swagger UI](https://swagger.io/tools/swagger-ui/)
 - [Railway](https://railway.app/)
 - [JWT](https://jwt.io/)
+
+---
+
+---
+
+## 🧾 License
+
+MIT © 2025 [Ezarelz](https://github.com/ezarelz)
 
 ---
