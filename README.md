@@ -277,6 +277,7 @@ Built with:
 - [JWT](https://jwt.io/)
 
 ---
+````
 
 ---
 
@@ -285,4 +286,3 @@ Built with:
 MIT © 2025 [Ezarelz](https://github.com/ezarelz)
 
 ---
-````
