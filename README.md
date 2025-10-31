@@ -1,8 +1,4 @@
-## Todolist Backend with Swagger
-
----
-
-# 🧩 Todo API (In-Memory)
+## 🧩 Todo API (In-Memory)
 
 A simple and lightweight **Express.js REST API** for managing todos with user authentication — built using **JWT**, **Swagger UI**, and **in-memory data** (no external database required).
 
@@ -30,8 +26,6 @@ git clone https://github.com/ezarelz/be-todolist-ez.git
 cd todo-api-be
 ```
 
-````
-
 ### 2️⃣ Install dependencies
 
 ```bash
@@ -40,19 +34,19 @@ npm install
 
 ### 3️⃣ Start the server
 
-For development (auto-reload with `nodemon`):
+**Development (auto-reload with nodemon):**
 
 ```bash
 npm run dev
 ```
 
-For production:
+**Production:**
 
 ```bash
 npm start
 ```
 
-Server runs on **[http://localhost:3001](http://localhost:3001)**
+Server runs on **http://localhost:3001**
 
 ---
 
@@ -60,8 +54,8 @@ Server runs on **[http://localhost:3001](http://localhost:3001)**
 
 Access the interactive API documentation here:
 
-👉 **Local:** [http://localhost:3001/api-docs](http://localhost:3001/api-docs)
-👉 **Production (Railway):** `https://yourproject.up.railway.app/api-docs`
+- 👉 **Local:** [http://localhost:3001/api-docs](http://localhost:3001/api-docs)
+- 👉 **Production:** `https://yourproject.up.railway.app/api-docs`
 
 ---
 
@@ -83,11 +77,11 @@ All authentication-related routes are **public**.
 
 ### 🔸 Register User
 
-```
+```http
 POST /auth/register
 ```
 
-**Body:**
+**Request Body:**
 
 ```json
 {
@@ -100,11 +94,11 @@ POST /auth/register
 
 ### 🔸 Login User
 
-```
+```http
 POST /auth/login
 ```
 
-**Body:**
+**Request Body:**
 
 ```json
 {
@@ -125,15 +119,16 @@ POST /auth/login
 
 ## ✅ Todos Endpoints
 
-> ⚠️ All todo routes require **Authorization header** > `Authorization: Bearer <token>`
+> ⚠️ **All todo routes require Authorization header:**  
+> `Authorization: Bearer <token>`
 
 ### ➕ Create Todo
 
-```
+```http
 POST /todos
 ```
 
-**Body:**
+**Request Body:**
 
 ```json
 {
@@ -145,35 +140,37 @@ POST /todos
 
 ### 📋 Get All Todos
 
-```
+```http
 GET /todos
 ```
 
 ### ✅ Get Completed Todos
 
-```
+```http
 GET /todos/completed
 ```
 
 ### 🌀 Mark Todo as Complete / Incomplete
 
-```
+```http
 PATCH /todos/{id}/complete
 ```
 
-**Body (optional):**
+**Request Body (optional):**
 
 ```json
-{ "completed": true }
+{
+  "completed": true
+}
 ```
 
 ### 📝 Update Todo
 
-```
+```http
 PUT /todos/{id}
 ```
 
-**Body:**
+**Request Body:**
 
 ```json
 {
@@ -185,7 +182,7 @@ PUT /todos/{id}
 
 ### ❌ Delete Todo
 
-```
+```http
 DELETE /todos/{id}
 ```
 
@@ -225,13 +222,13 @@ The API starts with **sample users and todos** for testing.
 
 ### 👥 Sample Users
 
-| Email                                             | Password    |
-| ------------------------------------------------- | ----------- |
-| [john@example.com](mailto:john@example.com)       | password123 |
-| [jane@example.com](mailto:jane@example.com)       | password123 |
-| [bob@example.com](mailto:bob@example.com)         | password123 |
-| [alice@example.com](mailto:alice@example.com)     | password123 |
-| [charlie@example.com](mailto:charlie@example.com) | password123 |
+| Email               | Password    |
+| ------------------- | ----------- |
+| john@example.com    | password123 |
+| jane@example.com    | password123 |
+| bob@example.com     | password123 |
+| alice@example.com   | password123 |
+| charlie@example.com | password123 |
 
 > 🧠 Use any of these to login quickly and test the API.
 
@@ -239,16 +236,18 @@ The API starts with **sample users and todos** for testing.
 
 ## ⚠️ Notes
 
-- 🧠 Data is stored **in memory** — it resets whenever the server restarts.
-- 🔒 JWT tokens expire in **24 hours**.
-- 🔑 Passwords are hashed using **bcrypt**.
-- 📅 All dates must follow `YYYY-MM-DD` format.
+- 🧠 Data is stored **in memory** — it resets whenever the server restarts
+- 🔒 JWT tokens expire in **24 hours**
+- 🔑 Passwords are hashed using **bcrypt**
+- 📅 All dates must follow `YYYY-MM-DD` format
 
 ---
 
 ## 🌐 Deployment (Railway)
 
-1. Push project to GitHub:
+### Steps:
+
+1. **Push project to GitHub:**
 
    ```bash
    git add .
@@ -257,15 +256,20 @@ The API starts with **sample users and todos** for testing.
    ```
 
 2. Go to [https://railway.app](https://railway.app)
+
 3. Create new project → **Deploy from GitHub Repo**
+
 4. Set environment variables (`JWT_SECRET`, optional `PORT`)
+
 5. Wait for build & deploy to finish 🎉
 
-Your live API:
+**Your live API:**
 
 ```
 https://<yourproject>.up.railway.app/
 ```
+
+---
 
 ## ❤️ Acknowledgements
 
@@ -277,12 +281,11 @@ Built with:
 - [JWT](https://jwt.io/)
 
 ---
-````
-
----
 
 ## 🧾 License
 
 MIT © 2025 [Ezarelz](https://github.com/ezarelz)
 
----
+```
+
+```
