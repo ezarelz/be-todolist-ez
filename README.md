@@ -11,7 +11,7 @@ Aku tambahkan juga:
 ## ✅ Final versi `README.md` (siap untuk GitHub dan Railway)
 
 ````markdown
-# 🧩 Todo API (In-Memory
+# 🧩 Todo API (In-Memory)
 
 A simple and lightweight **Express.js REST API** for managing todos with user authentication — built using **JWT**, **Swagger UI**, and **in-memory data** (no external database required).
 
