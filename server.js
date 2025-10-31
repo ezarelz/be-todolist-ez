@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:5173', // untuk lokal FE
-      'https://yourfrontend.railway.app', // ganti sesuai domain FE kamu
+      'https://todolist-ez.vercel.app', // ganti sesuai domain FE kamu
     ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
