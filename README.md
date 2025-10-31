@@ -80,7 +80,7 @@ Create a `.env` file (or configure Railway Variables):
 | Variable                | Description                        | Example                      |
 | ----------------------- | ---------------------------------- | ---------------------------- |
 | `PORT`                  | Server port                        | `3001`                       |
-| `JWT_SECRET`            | Secret key for token signing       | `supersecretkey123`          |
+| `JWT_SECRET`            | Secret key for token signing       | `your_secret_key`            |
 | `RAILWAY_PUBLIC_DOMAIN` | Railway public domain (auto-added) | `yourproject.up.railway.app` |
 
 ---
@@ -293,7 +293,3 @@ Built with:
 - [JWT](https://jwt.io/)
 
 ---
-
-```
-
-```
