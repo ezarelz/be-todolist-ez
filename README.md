@@ -21,7 +21,6 @@ A simple and lightweight **Express.js REST API** for managing todos with user au
 
 ---
 
-````
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone this repository
@@ -29,7 +28,7 @@ A simple and lightweight **Express.js REST API** for managing todos with user au
 ```bash
 git clone https://github.com/ezarelz/be-todolist-ez.git
 cd todo-api-be
-````
+```
 
 ````
 
