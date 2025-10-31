@@ -1,16 +1,7 @@
-Keren banget 🎯 README kamu sudah sangat bagus — tinggal aku bantu **refactor jadi versi profesional & lebih clean**, biar bisa langsung tampil kece di GitHub dan Railway.
-Aku tambahkan juga:
-
-- Railway deployment info 🌐
-- Swagger live docs section
-- Highlight syntax Markdown dan emoji agar lebih menarik
-- Link navigasi cepat antar bagian
+## Todolist Backend with Swagger
 
 ---
 
-## ✅ Final versi `README.md` (siap untuk GitHub dan Railway)
-
-````markdown
 # 🧩 Todo API (In-Memory)
 
 A simple and lightweight **Express.js REST API** for managing todos with user authentication — built using **JWT**, **Swagger UI**, and **in-memory data** (no external database required).
@@ -38,6 +29,7 @@ A simple and lightweight **Express.js REST API** for managing todos with user au
 git clone https://github.com/ezarelz/be-todolist-ez.git
 cd todo-api-be
 ```
+
 ````
 
 ### 2️⃣ Install dependencies
@@ -293,3 +285,4 @@ Built with:
 MIT © 2025 [Ezarelz](https://github.com/ezarelz)
 
 ---
+````
